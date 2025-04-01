@@ -4,11 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Style</title>
+
+    <style>
+        /* universal selector */
+        *{
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        /* class selector */
+        .name-tag {
+            color: blue;
+            background-color: red;
+            font-size: 50px;
+        }
+
+        /* id selector */
+        #btn {
+            background-color: green; 
+            color: white; 
+            padding: 10px; 
+            border-radius: 20px; 
+            width: 100px;
+        }
+
+        /* element selector */
+        input {
+            height: 30px; 
+            width: 30%;
+            border-radius: 5px;
+        }
+    </style>
 </head>
 <body>
-    <h1 style="color: blue; background: red;">Hello Harsha</h1>
+    <h1 class="name-tag">Hello Harsha</h1>
 
     <input type="text" placeholder="Enter your name">
-    <button style="background-color: green; color: white; padding: 10px; border-radius: 20px; width: 100px;">Click Me</button>
+    <button id="btn">Click Me</button>
 </body>
 </html>
