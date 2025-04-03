@@ -1,0 +1,37 @@
+/* universal selector */
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/* class selector */
+.name-tag {
+  color: blue;
+  background-color: red;
+  font-size: 50px;
+}
+
+/* id selector */
+#btn {
+  background-color: green;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+  width: 100px;
+}
+
+/* element selector */
+input {
+  height: 30px;
+  width: 30%;
+  border-radius: 5px;
+}
+
+.sub-heading {
+  color: purple;
+  font-weight: 300;
+}
+
+#override {
+  color: green !important;
+}

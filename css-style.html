@@ -4,41 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Style</title>
+    <link rel="stylesheet" href="css/style.css">
 
-    <style>
-        /* universal selector */
-        *{
-            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        }
-
-        /* class selector */
-        .name-tag {
-            color: blue;
-            background-color: red;
-            font-size: 50px;
-        }
-
-        /* id selector */
-        #btn {
-            background-color: green; 
-            color: white; 
-            padding: 10px; 
-            border-radius: 20px; 
-            width: 100px;
-        }
-
-        /* element selector */
-        input {
-            height: 30px; 
-            width: 30%;
-            border-radius: 5px;
-        }
-    </style>
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
 </head>
 <body>
     <h1 class="name-tag">Hello Harsha</h1>
 
     <input type="text" placeholder="Enter your name">
     <button id="btn">Click Me</button>
+
+    <h3 class="sub-heading" style="color: red;" id="override">Hello World</h3>
 </body>
 </html>
