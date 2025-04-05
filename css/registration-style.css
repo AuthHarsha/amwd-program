@@ -1,0 +1,39 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.main {
+  margin-left: 50%;
+}
+
+.heading {
+  color: red;
+  text-decoration: underline;
+}
+
+.top-image {
+  margin-bottom: 25px;
+}
+
+input:not([type="radio"]) {
+  border-radius: 20px;
+  height: 30px;
+  margin-bottom: 20px;
+  padding-left: 15px;
+}
+
+.radio-selector input,
+label {
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 15px;
+  margin-top: 20px;
+}
+
+.btn-success {
+  color: white;
+  background-color: green;
+  border: 2px solid black;
+}
