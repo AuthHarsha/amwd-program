@@ -3,9 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Sign In</title>
+
+    <link rel="stylesheet" href="css/login-style.css">
 </head>
 <body>
-    <h1>Please Login</h1>
+    <div class="container">
+        <div class="form-container">
+            <div class="form-content">
+                <img class="top-image" src="assets/login.png" alt="">
+                <h1 class="heading">Sign In</h1>
+                
+                <form action="">
+                    <input type="text" placeholder="Type Your Username"><br>
+                    <input type="password" placeholder="Type Your Password"><br>
+                
+                    <button class="btn" type="submit">Sign In</button>
+                
+                    <div>
+                        <input type="checkbox" id="remember-me" name="remember-me">
+                        <label for="remember-me">Remember me</label>
+                
+                        <a class="forget-link" href="#">Forget Password?</a>
+                    </div>
+                </form>
+            </div>
+
+            <div class="form-footer">
+                <p class="footer-text">Not a member? <a class="register-link" href="registration.html">Crate an Account</a></p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
